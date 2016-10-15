@@ -1,0 +1,330 @@
+<div style="width: 600px;margin: auto;">
+
+  <div class="head"
+       style="height: 210px;width: 600px;background: url(https://static.hopscotch.in/mark/email/new_mailer_template_header_1.png);border-collapse: collapse;">
+
+  </div>
+  <!-- Esha div1 start-->
+  <table border="0" cellpadding="0" style=" border-collapse: collapse; width: 600px;">
+    <tbody>
+    <tr>
+      <td><img src="https://static.hopscotch.in/mark/email/extra_pink_for_inset.png" alt="" border="0"
+               height="285px" width="15px">
+      </td>
+      <td>
+        <a>
+          <input style="position: absolute;margin-top: 8%" type="text"
+                 [(ngModel)]="templateParams.heroBanner.heroImageUrl">
+          <img src="{{templateParams.heroBanner.heroImageUrl}}" alt="" border="0"
+               height="285px" width="570px">
+
+        </a>
+      </td>
+      <td><img src="https://static.hopscotch.in/mark/email/extra_pink_for_inset.png" alt="" border="0"
+               height="285px" width="15px">
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+  <div class="body" style="width: 600px;margin: auto;">
+
+    <div style="width: 242px;margin: auto;margin: 30px auto;"><span
+      style="width: 206px;height: 16px;font-family: Arial;font-size: 16.1px;font-weight: 700;letter-spacing: 0.2px;text-align: center; color: #444444;">
+            <input
+              style="width:107px;font-family: Arial;font-size: 16.1px;font-weight: 700;letter-spacing: 0.2px;text-align: center; color: #444444;"
+              type="text" [(ngModel)]="templateParams.heroBanner.heroImageTitle"/> </span>&nbsp;&nbsp;<a
+      style="text-decoration: none;"><span
+      style="width: 206px;height: 16px;font-family: Arial;font-size: 16.1px;font-weight: 700;letter-spacing: 0.2px;text-align: center;color: #ed54a4;">
+            <i>starts ₹<input
+              style="width:30px;font-family: Arial;font-size: 16.1px;font-weight: 700;letter-spacing: 0.2px;text-align: center;color: #ed54a4;"
+              type="text" [(ngModel)]="templateParams.heroBanner.heroImagePrice"/> </i><span
+      style="font-size: 13px;color: #e03895;">►</span></span></a>
+    </div>
+    <!-- Esha div1 ends -->
+    <div style="width: 100%;margin: auto;text-align: center;">
+      <!-- Esha div2 left start -->
+      <div style="width: 49%;display: inline-block;">
+        <a style="text-decoration: none;">
+          <div style="width: 278px;height: 278px;display: inline-block;margin: 7px;">
+            <input style="position: absolute;margin-top: 8%" type="text" [(ngModel)]="templateParams.boutique1.imgUrl">
+            <img src="{{templateParams.boutique1.imgUrl}}" alt="" border="0"
+                 height="278px" width="278px">
+          </div>
+          <div style="width: 121px;height: 34px;margin: auto;padding-top: 20px;">
+            <span
+              style="width: 117px;height: 34px;font-family: Arial;font-size: 16.1px;font-weight: 700;letter-spacing: 0.2px;text-align: center;color: #444444;">
+              <input
+                style="width:130px;font-family: Arial;font-size: 16.1px;font-weight: 700;letter-spacing: 0.2px;text-align: center;color: #444444;"
+                type="text" [(ngModel)]="templateParams.boutique1.name"/></span>
+            <br>
+                        <span
+                          style="color: #ed54a4;font-style: italic;font-family: arial;font-weight: 600;">starts ₹<input
+                          style="width:30px;font-family: Arial;font-size: 16.1px;font-weight: 700;letter-spacing: 0.2px;text-align: center;color: #ed54a4;"
+                          type="text" [(ngModel)]="templateParams.boutique1.price"/>&nbsp;&nbsp;<span
+                          style="font-size: 13px;color: #e03895;">►</span></span>
+          </div>
+        </a>
+      </div>
+      <!-- Esha div2 left ends -->
+      <!-- Esha div2 right start -->
+      <div style="width: 49%;display: inline-block;">
+        <a style="text-decoration: none;">
+          <div style="width: 278px;height: 278px;display: inline-block;margin: 7px;">
+            <input style="position: absolute;margin-top: 8%" type="text" [(ngModel)]="templateParams.boutique2.imgUrl">
+            <img src="{{templateParams.boutique2.imgUrl}}" alt="" border="0"
+                 height="278px" width="278px">
+          </div>
+          <div style="width: 121px;height: 34px;margin: auto;padding-top: 20px;">
+            <span
+              style="width: 117px;height: 34px;font-family: Arial;font-size: 16.1px;font-weight: 700;letter-spacing: 0.2px;text-align: center;color: #444444;"><input
+              style="width:130px;font-family: Arial;font-size: 16.1px;font-weight: 700;letter-spacing: 0.2px;text-align: center;color: #444444;"
+              type="text" [(ngModel)]="templateParams.boutique2.name"/></span>
+            <br>
+                        <span
+                          style="color: #ed54a4;font-style: italic;font-family: arial;font-weight: 600;">starts ₹<input
+                          style="width:30px;font-family: Arial;font-size: 16.1px;font-weight: 700;letter-spacing: 0.2px;text-align: center;color: #ed54a4;"
+                          type="text" [(ngModel)]="templateParams.boutique2.price"/>&nbsp;&nbsp;<span
+                          style="font-size: 13px;color: #e03895;">►</span></span>
+          </div>
+        </a>
+      </div>
+      <!-- Esha div2 right end -->
+    </div>
+    <!-- Esha div3 start -->
+    <div style="display: table;margin: 12px;padding-top: 30px;width:100%">
+      <a>
+        <div style="width: 359px;height: 359px;display: table-cell;">
+          <input style="position: absolute;margin-top: 8%" type="text" [(ngModel)]="templateParams.boutique3.imgUrl">
+          <img src="{{templateParams.boutique3.imgUrl}}" alt="" border="0"
+               height="359px" width="359px">
+        </div>
+      </a>
+      <div style="width: auto;display: table-cell;vertical-align: middle;text-align: center;">
+        <div
+          style="width: 31.1px;height: 3px;background-color: #ed54a4;display: block;margin: 0px auto 30px auto;"></div>
+        <span
+          style="width: 132px;height: 40px;font-family: Arial;font-size: 20.2px;font-weight: 700;letter-spacing: 0.2px;text-align: center;color: #333333;">
+          <input style="width:145px;" type="text" [(ngModel)]="templateParams.boutique3.captionRight"/>
+        </span>
+        <br>
+        <div
+          style="width: 31.1px;height: 3px;background-color: #ed54a4;display: block;margin: 30px auto 42px auto;"></div>
+        <a style="text-decoration: none;">
+                    <span
+                      style="width: 79px;height: 16px;font-family: Arial;font-size: 16px;font-weight: 700;font-style: italic;line-height: 1.38;text-align: center;color: #ed54a4;">Shop Now <span
+                      style="font-size: 13px;color: #e03895;">►</span> </span>
+        </a>
+
+      </div>
+    </div>
+    <!-- Esha div3 end -->
+    <div style="width: 100%;margin: auto;text-align: center;padding-top: 40px;padding-bottom: 40px;">
+
+                <span
+                  style="height: 40px;font-family: Arial;font-size: 20.1px;font-weight: 700;letter-spacing: 0.2px;text-align: center;color: #333333;"><input
+                  style="width:145px;" type="text" [(ngModel)]="templateParams.boutique3.captionBottom"/>
+          </span>
+      <div style="width: 31.1px;height: 3px;background-color: #ed54a4;display: block;margin: 8px auto;"></div>
+
+    </div>
+    <!-- Esha div4 start -->
+    <div style="display: table">
+      <div style="display: table-cell">
+        <a>
+          <div style="width: 150px;height: 150px;">
+            <input style="position: absolute;margin-top: 3%; width: 80px" type="text"
+                   [(ngModel)]="templateParams.tiles.tile1.imgUrl">
+            <img src="{{templateParams.tiles.tile1.imgUrl}}" alt="" border="0"
+                 height="150px" width="150px">
+          </div>
+        </a>
+        <div style="text-align: center"><span
+          style="width: 34px;height: 13px;font-family: Arial;font-size: 11.1px;font-weight: 600;line-height: 2;letter-spacing: 0.6px;text-align: center;color: #ed54a4;">₹<input
+          style="width:30px;" type="text" [(ngModel)]="templateParams.tiles.tile1.price"/></span>
+        </div>
+      </div>
+      <div style="display: table-cell">
+        <a>
+          <div style="width: 150px;height: 150px;">
+            <input style="position: absolute;margin-top: 3%; width: 80px" type="text"
+                   [(ngModel)]="templateParams.tiles.tile2.imgUrl">
+            <img src="{{templateParams.tiles.tile2.imgUrl}}" alt="" border="0"
+                 height="150px" width="150px">
+          </div>
+        </a>
+        <div style="text-align: center"><span
+          style="width: 34px;height: 13px;font-family: arial;font-size: 11.1px;font-weight: 600;line-height: 2;letter-spacing: 0.6px;text-align: center;color: #ed54a4;">₹<input
+          style="width:30px;" type="text" [(ngModel)]="templateParams.tiles.tile2.price"/></span>
+        </div>
+      </div>
+      <div style="display: table-cell">
+        <a>
+          <div style="width: 150px;height: 150px;">
+            <input style="position: absolute;margin-top: 3%; width: 80px" type="text"
+                   [(ngModel)]="templateParams.tiles.tile3.imgUrl">
+            <img src="{{templateParams.tiles.tile3.imgUrl}}" alt="" border="0"
+                 height="150px" width="150px">
+          </div>
+        </a>
+        <div style="text-align: center"><span
+          style="width: 34px;height: 13px;font-family: arial;font-size: 11.1px;font-weight: 600;line-height: 2;letter-spacing: 0.6px;text-align: center;color: #ed54a4;">₹<input
+          style="width:30px;" type="text" [(ngModel)]="templateParams.tiles.tile3.price"/></span>
+        </div>
+      </div>
+      <div style="display: table-cell">
+        <a>
+          <div style="width: 150px;height: 150px;">
+            <input style="position: absolute;margin-top: 3%; width: 80px" type="text"
+                   [(ngModel)]="templateParams.tiles.tile4.imgUrl">
+            <img src="{{templateParams.tiles.tile4.imgUrl}}" alt="" border="0"
+                 height="150px" width="150px">
+          </div>
+        </a>
+        <div style="text-align: center"><span
+          style="width: 34px;height: 13px;font-family: arial;font-size: 11.1px;font-weight: 600;line-height: 2;letter-spacing: 0.6px;text-align: center;color: #ed54a4;">₹<input
+          style="width:30px;" type="text" [(ngModel)]="templateParams.tiles.tile4.price"/></span>
+        </div>
+      </div>
+    </div>
+    <!-- Esha div4 end -->
+    <!-- Esha div5 start -->
+    <div style="width: 100%;margin: auto;text-align: center;display: table;">
+      <div style="display: table-row; margin: 0; padding: 0;">
+        <div style="vertical-align: middle;display: table-cell;text-align: center;width: 40%;">
+          <div style="">
+            <div
+              style="width: 31.1px;height: 3px;background-color: #ed54a4;display: block;margin: 0px auto 30px auto;"></div>
+            <span
+              style="height: 40px;font-family: Arial;font-size: 20.2px;font-weight: 700;letter-spacing: 0.2px;text-align: center;color: #333333;/* width: 40px; */"><input
+              style="width:145px;" type="text" [(ngModel)]="templateParams.boutique4.captionLeft"/></span>
+            <br>
+            <div
+              style="width: 31.1px;height: 3px;background-color: #ed54a4;display: block;margin: 30px auto 0px auto;margin: 30px auto 42px auto;"></div>
+            <a style="text-decoration: none;"><span
+              style="width: 79px;height: 16px;font-family: Arial;font-size: 16px;font-weight: 700;font-style: italic;line-height: 1.38;text-align: center;color: #ed54a4;">Shop Now <span
+              style="font-size: 13px;color: #e03895;">►</span> </span></a>
+
+          </div>
+        </div>
+        <div style="/* width: 59%; */display: table-cell;text-align: right;">
+          <a style="text-decoration: none;">
+            <div style="width: 150px;height: 150px;display: inline-block;margin: 7px;">
+              <input style="position: absolute;margin-top: 3%; width: 80px" type="text"
+                     [(ngModel)]="templateParams.boutique4.tile1ImgUrl">
+              <img src="{{templateParams.boutique4.tile1ImgUrl}}" alt="" border="0"
+                   height="150px" width="150px">
+            </div>
+          </a>
+          <a style="text-decoration: none;">
+            <div style="width: 150px;height: 150px;display: inline-block;margin: 7px 0 7px 7px;">
+              <input style="position: absolute;margin-top: 3%; width: 80px" type="text"
+                     [(ngModel)]="templateParams.boutique4.tile2ImgUrl">
+              <img src="{{templateParams.boutique4.tile2ImgUrl}}" alt="" border="0"
+                   height="150px" width="150px">
+            </div>
+          </a>
+          <a style="text-decoration: none;">
+            <div style=";width: 150px;height: 150px;display: inline-block;margin: 7px;">
+              <input style="position: absolute;margin-top: 3%; width: 80px" type="text"
+                     [(ngModel)]="templateParams.boutique4.tile3ImgUrl">
+              <img src="{{templateParams.boutique4.tile3ImgUrl}}" alt="" border="0"
+                   height="150px" width="150px">
+            </div>
+          </a>
+          <a style="text-decoration: none;">
+            <div style="width: 150px;height: 150px;display: inline-block;margin: 7px 0 7px 7px;">
+              <input style="position: absolute;margin-top: 3%; width: 80px" type="text"
+                     [(ngModel)]="templateParams.boutique4.tile4ImgUrl">
+              <img src="{{templateParams.boutique4.tile4ImgUrl}}" alt="" border="0"
+                   height="150px" width="150px">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Esha div5 end -->
+    <!-- Esha div6 start -->
+    <div style="display: table;margin: 12px;">
+      <a>
+        <div style="width: 420px;  height: 197px;display: table-cell;">
+          <input style="position: absolute;margin-top: 3%; width: 80px" type="text"
+                 [(ngModel)]="templateParams.boutique5.imgUrl">
+          <img src="{{templateParams.boutique5.imgUrl}}" alt="" border="0"
+               height="197px" width="420px">
+        </div>
+      </a>
+      <div style="width: auto;display: table-cell;vertical-align: middle;text-align: center;">
+        <a style="text-decoration: none;display: inline-block;"><span
+          style="width: 90px;height: 20px;font-family: Arial;font-size: 40px;font-weight: 700;letter-spacing: 0.2px;text-align: center;color: #333333;line-height: 1px;float: left;">sale </span>
+          <div style="font-size: 13px;color: #e03895;line-height: 5px;float: left;">►</div>
+        </a>
+        <br>
+        <div style="width: 31.1px;height: 3px;background-color: #ed54a4;display: block;margin: 8px auto;"></div>
+        <span
+          style="width: 87px;  height: 44px;  font-family: Arial;  font-size: 50px;  font-weight: 400;  line-height: 0.94;  letter-spacing: -1.5px;  text-align: center;  color: #ed54a4;"><input
+          style="width:40px;height:64px;font-size:33px;" type="text" [(ngModel)]="templateParams.boutique5.discount"/>% </span>
+        <span
+          style="width: 87px;  height: 44px;  font-family: Arial;  font-size: 40px;  font-weight: 400;  line-height: 0.94;  letter-spacing: -1.5px;  text-align: center;  color: #ed54a4;">OFF </span>
+
+      </div>
+
+    </div>
+    <!-- Esha div6 end -->
+    <div style="display: table;">
+      <div style="width: 345px;  height: 197px; ">
+        <img src="https://static.hopscotch.in/mark/email/iPhone-&amp;-Android-images.jpg" width="275"
+             height="200" style="">
+      </div>
+      <div style="width: 200px;padding-top: 36px;display: table-cell;vertical-align: middle;text-align: left;">
+        <span
+          style="width: 136px;height: 19px;font-family: Arial;font-size: 19.9px;font-weight: 500;text-align: center;color: #333333;font-weight: 600">Grab the app</span>
+        <br>
+        <span
+          style="width: 156px;  height: 31px;  font-family: Arial;  font-size: 14px;  font-weight: 400;  line-height: 1.27;  text-align: center;  color: #343434;">for the best shopping <br> experience </span>
+        <br><span class="center"><a
+        href="https://itunes.apple.com/in/app/hopscotch-find-something-new/id945949424?mt=8">
+        <img src="https://static.hopscotch.in/mark/email/ios_email_logo.png" width="29" height="36"
+             style="padding-right:37px;padding-top: 11px;"></a>
+        <a href="https://play.google.com/store/apps/details?id=in.hopscotch.android&amp;hl=en">
+          <img src="https://static.hopscotch.in/mark/email/android_email_logo.png" width="29" height="36"></a>
+        </span>
+      </div>
+    </div>
+
+    <div class="bottom" style="height: 272px; width: 600px; background: #ed54a4; margin: auto;">
+      <div id="wecare"
+           style="color: #ffffff; font-family: Arial; font-size: 16.9px; font-weight: 400; height: 15px; padding-top: 33px; padding-left: 90px; padding-right: 86px;padding-bottom: 20px; text-align: center;"
+           align="center">
+        We are listening. Write to us on <a href="mailto:wecare@hopscotch.in"
+                                            style="color: #ffffff; text-decoration: none;">wecare@hopscotch.in</a>
+      </div>
+      <div style="width: 31px;height: 3px;background-color: #ffffff;display: block;margin: 8px auto;"></div>
+      <br>
+      <div id="connectwithus"
+           style="color: #ffffff; font-family:Arial; font-size: 25px; font-weight: 500; height: 16px;"
+           align="center">
+        Connect with us
+      </div>
+
+      <div id="social" align="center" style="padding-top: 15px;">
+        <br>
+                <span><a><img src="https://static.hopscotch.in/mark/email/fb_icon_email.png"
+                              style="width: 47px;height: 47px;padding-right:18px;"></a></span>
+                <span><a><img src="https://static.hopscotch.in/mark/email/twitter_icon_email.png"
+                              style="width: 47px;height: 47px;padding-right:18px;"></a></span>
+                <span><a><img src="https://static.hopscotch.in/mark/email/insta_icon_email.png"
+                              style="width: 47px;height: 47px;"></a></span>
+      </div>
+
+      <div id="unsubsribe"
+           style="font-family:Arial;font-size: 11px;font-weight: 400;letter-spacing: 0.1px;text-align: center;color: #ffffff;padding-top: 35px;">
+        Sigh. If you must leave us, you may <a href="*|UNSUB|*" style="color: #ffffff">unsubscribe here.</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div>
+  <button (click)="downloadTemplate(templateParams)">Generate Template</button>
+</div>

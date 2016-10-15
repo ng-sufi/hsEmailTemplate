@@ -1,0 +1,11 @@
+.img-input {
+  position:absolute;
+  background:transparent;
+  border:0;
+  color:#000;
+  font-size:11px;
+  text-align:center;
+  width:100%;
+  top:20px;
+  outline:none;
+}
